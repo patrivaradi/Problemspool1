@@ -13,7 +13,15 @@ namespace _20
         /// </summary>
         static void Main(string[] args)
         {
-
+            int m, n, intraga,zecimal;
+            Console.Write("Introduceti  m = ");
+            m = int.Parse(Console.ReadLine());
+            Console.Write("Introduceti  n = ");
+            n = int.Parse(Console.ReadLine());
+            intraga = m / n;
+            zecimal = m % n;
+            Console.WriteLine($"{m}/{n} = {intraga}.{zecimal}");
+            Console.ReadKey();
         }
     }
 }
